@@ -5,9 +5,20 @@
   "main": "index.js",
 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+
+
+    "index": "node index.js index",
+    "show": "node index.js show",
+
+    "create": "node index.js create",
+    "update": "node index.js update",
+    "destroy": "node index.js destroy",
+    
+    "score": "node index.js score"
   },
-  
+
   "keywords": [],
   "author": "",
   "license": "ISC",
